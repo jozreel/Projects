@@ -1,0 +1,5 @@
+This is a project created to notify taxi operators of available jobs.
+The project was created in c # using vs2010.
+
+the programme creats sheduled tasks which runs on the windows task scheduler and different triggers are added to the task
+therefore emails will be sent to different drivers at different intervals or times to notify them of jobs to be done
