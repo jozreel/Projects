@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="emails.exe" version="1.0.0.0" publicKeyToken="0e1245582c7acbd8" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\taxi.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="emails" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="emails.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.DotNetBar2" version="10.3.0.0" publicKeyToken="7EB7C3A35B91DE04" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="emails.exe" size="25088">
+      <assemblyIdentity name="emails" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>X+jmF42x/uy9i6kcEzfBitjXPs4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Win32.TaskScheduler.dll" size="171008">
+      <assemblyIdentity name="Microsoft.Win32.TaskScheduler" version="1.9.4.17032" publicKeyToken="0D013DDD5178A2AE" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>HInToJ2Gq19n6ph3U0RRz3eBMqw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mysql.data.dll" size="392704">
+      <assemblyIdentity name="MySql.Data" version="6.6.5.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>5AbP74pc12PluVLE+DRCDzwOKTI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mysql.data.entity.dll" size="238592">
+      <assemblyIdentity name="MySql.Data.Entity" version="6.6.5.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>p6GCuMdTkKPld0yd+ETYAoztaUQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\taxi.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>c7Zf0dlJ+LOIPRJFaH00xU6a0vQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PROGRAMMER1-PC\Programmer_1" issuerKeyHash="409d69ba2315baff4ffb3374991b1cd3a6dda779" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ovQ3xTmKBR5eDRRQaiz94ZYyQYg=</DigestValue></Reference></SignedInfo><SignatureValue>s9aK/spQ/goJcmyKDOpYGRuEo3baTpzjsFLwjpoROA8E+oJv22zoSailNaaN7xF1olUFhpA1372MXCNcX6MqYf4HlXxa/jwJiQD9ITNpmqsGD96aDibzqOwcKgDxc2FeU/S/9n6lGSjrcx69JdLYEcyjif6oI5ropQR50CNa1XI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>63lFZ7nr6LOYhkw9nVMXvgxlAKCDHi3KH7TEXJCVmcrUijxYi8h+1mRYjShZni7b7hfsUJTt0Lrn6iYZZSNFgCgoK/U4zaddxMh6yQ4n5Jpffu1nOXdbAS2QSts0sACkR5bW3m+KDDugK0XSU3qXGWEqf6m7iE5yIbGZlkMRNb0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="88413296e1fd2c6a50140d5e1e058a39c537f4a2" Description="" Url=""><as:assemblyIdentity name="emails.exe" version="1.0.0.0" publicKeyToken="0e1245582c7acbd8" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PROGRAMMER1-PC\Programmer_1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>oj3VlbGTb/7RbijQuAl6eXK+I4k=</DigestValue></Reference></SignedInfo><SignatureValue>Y5dt9pebm6mmmGE2V0QqenXGK8CDKpsg8TWdyrWj5PVrE05Tm5a3wu8TMtfX11nw4yBXQLQcSQyqMd45KOFyp10tNWEi9aISBH5wbZIDNBT5pH3ej2WXF/JeVjFImjjeYAoqUJ+FC5UnoIIe959WSai2HWI3nxO8c960xwOrECM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>63lFZ7nr6LOYhkw9nVMXvgxlAKCDHi3KH7TEXJCVmcrUijxYi8h+1mRYjShZni7b7hfsUJTt0Lrn6iYZZSNFgCgoK/U4zaddxMh6yQ4n5Jpffu1nOXdbAS2QSts0sACkR5bW3m+KDDugK0XSU3qXGWEqf6m7iE5yIbGZlkMRNb0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQRQyNBDXiiIRKkaDy63uVzTANBgkqhkiG9w0BAQUFADBBMT8wPQYDVQQDHjYAUABSAE8ARwBSAEEATQBNAEUAUgAxAC0AUABDAFwAUAByAG8AZwByAGEAbQBtAGUAcgBfADEwHhcNMTMwNTE0MTgxNjI0WhcNMTQwNTE1MDAxNjI0WjBBMT8wPQYDVQQDHjYAUABSAE8ARwBSAEEATQBNAEUAUgAxAC0AUABDAFwAUAByAG8AZwByAGEAbQBtAGUAcgBfADEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOt5RWe56+izmIZMPZ1TF74MZQCggx4tyh+0xFyQlZnK1Io8WIvIftZkWI0oWZ4u2+4X7FCU7dC65+omGWUjRYAoKCv1OM2nXcTIeskOJ+SaX37tZzl3WwEtkErbNLAApEeW1t5vigw7oCtF0lN6lxlhKn+pu4hOciGxmZZDETW9AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAv6edfi8Ban117iyQ0R6k2KkxadHehES1tU0SW5yJlqgd2aWHPorymUJRKVrepnWUHPC3vuM/T3jTpppC9Uwt4PERmn8XU0J1EmWYaSrjzJg+Y2yWVfWUc6DAVfH/p5c5vW+P7kt0QBTuLtYtjdv1369+xu+50QfyktSo/s5SI0U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <outGoing>smtp.live.com</outGoing>
+  <userName>jozreel@live.com</userName>
+  <passwd>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkqD3GRFrzEODU0pkhIIM3QAAAAACAAAAAAAQZgAAAAEAACAAAABrRL0qWvVl2YjDqhyH7KIgagg9cGba10lPxxyHE6xdogAAAAAOgAAAAAIAACAAAAAHahu3a2GsBOlHNrNO1WYBzf+a1gFMyD93axHliGZ81iAAAAAdz6ZqnvpgD3H1pQOo53zEPaRGLCvWYdUof1XweCP1BEAAAAAV87HuRk8cpFgCU4YYChMFsnxWBOKRdspl73aP0bmRI67+l7kZN1DkhXxDLGzHn/W1VLFGkskAaM7veBqB155L</passwd>
+  <port>25</port>
+  <ssl>true</ssl>
+</Data>

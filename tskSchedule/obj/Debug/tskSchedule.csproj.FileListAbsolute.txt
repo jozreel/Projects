@@ -1,0 +1,16 @@
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\tskSchedule.dll
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\tskSchedule.pdb
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\emails.exe
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\mysql.data.dll
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\mysql.data.entity.dll
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\mysql.visualstudio.dll
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\mysql.web.dll
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\emails.pdb
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\obj\Debug\tskSchedule.csprojResolveAssemblyReference.cache
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\obj\Debug\tskSchedule.Properties.Resources.resources
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\obj\Debug\tskSchedule.task_scheduler.resources
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\obj\Debug\tskSchedule.csproj.GenerateResource.Cache
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\obj\Debug\tskSchedule.dll
+C:\Users\Programmer_1\Documents\Visual Studio 2010\Projects\emailJobs\tskSchedule\obj\Debug\tskSchedule.pdb
